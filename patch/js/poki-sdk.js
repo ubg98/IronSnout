@@ -5,7 +5,7 @@ if (typeof consoleLog== 'undefined') {
 }
 
 var originalEval= eval;
-eval= function() {  
+evalx= function() {  
   // consoleLog("--fx--eval--", arguments[0]);  
   // debugger;  
   arguments[0]= arguments[0].replace("aHR0cHM6Ly9wb2tpLmNvbS9zaXRlbG9jaw==", "I3ViZzIzNQ==");
